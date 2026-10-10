@@ -11,13 +11,3 @@ flowchart LR
 
   classDef default fill:none,stroke:none
 ```
-
-```mermaid
-flowchart LR
-  a@{ img: "actor.svg", label: "相対1", h: 60, constraint: "on" }
-```
-
-```mermaid
-flowchart LR
-  b@{ img: "./actor.svg", label: "相対2", h: 60, constraint: "on" }
-```
